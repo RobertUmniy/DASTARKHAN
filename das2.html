@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dastarkhan — AI Food Guide</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: #faf7f2;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #ff8a00;
+      padding: 32px 20px;
+      text-align: center;
+      color: white;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      background: white;
+      padding: 24px;
+      border-radius: 16px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #ff8a00;
+    }
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .person {
+      background: #fff8f1;
+      padding: 16px;
+      border-radius: 12px;
+      border: 1px solid #ffdfc2;
+    }
+
+    .roadmap-step {
+      padding: 12px 16px;
+      margin: 8px 0;
+      border-left: 5px solid #ff8a00;
+      background: #fff7ee;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>DASTARKHAN — AI Food Navigator</header>
+
+  <div class="container">
+
+    <section>
+      <h2>1. Проблема → Решение</h2>
+      <p><strong>Проблема:</strong> Люди тратят кучу времени, выбирая где поесть: шумно или тихо, есть ли их блюдо, дорого или нет, есть ли парковка, можно ли заказать заранее. Все это рассыпано по куче приложений.</p>
+      <p><strong>Решение:</strong> <b>Dastarkhan</b> — умный AI-навигатор, который instantly подбирает идеальное место питания по любым параметрам: блюда, атмосфера, бюджет, тип кухни, расстояние, настроение, даже уровень шума. Можно сразу заказать еду или столик.</p>
+      <p>Стек: LLM-агент, ML-модели рекомендаций, NLP для анализа отзывов, интеграция с картами, платежами и меню ресторанов.</p>
+    </section>
+
+    <section>
+      <h2>2. Команда</h2>
+      <div class="team-grid">
+
+        <div class="person">
+          <h3>Хайдаров Равшан</h3>
+          <p><strong>Роль:</strong> Основатель, CEO</p>
+          <p>AI/ML, Python, системное понимание, vision-мышление.</p>
+        </div>
+
+        <div class="person">
+          <h3>Афзалов Бекзоджон</h3>
+          <p><strong>Роль:</strong> Сетевой инженер</p>
+          <p>Эксперт в компьютерных сетях, архитектура backend-инфраструктуры.</p>
+        </div>
+
+        <div class="person">
+          <h3>Согатов Абдужаббор</h3>
+          <p><strong>Роль:</strong> Developer</p>
+          <p>C-language basics, английский, junior-engineer support.</p>
+        </div>
+
+        <div class="person">
+          <h3>Хамраев Руслан</h3>
+          <p><strong>Роль:</strong> Hardware & Tech Specialist</p>
+          <p>Компьютерный мастер, техподдержка, оптимизация железа и девайсов.</p>
+        </div>
+
+        <div class="person">
+          <h3>Хайдаров Фаррух</h3>
+          <p><strong>Роль:</strong> Logic & System Analyst</p>
+          <p>Сильная логика, аналитическое мышление, структурирование систем.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2>3. Почему именно мы</h2>
+      <p>Мы собрали команду, которая закрывает весь жизненный цикл проекта:</p>
+      <ul>
+        <li>AI/ML + архитектура → создаём рекомендательные модели.</li>
+        <li>Network + backend → делаем стабильную платформу.</li>
+        <li>Analytics → проектируем user-flow и UX.</li>
+        <li>Technical ops → обеспечиваем поддержку и железо.</li>
+      </ul>
+      <p>Мы покрываем все ключевые точки: идея → ИИ → инженерка → продукт → запуск.</p>
+    </section>
+
+    <section>
+      <h2>4. Дорожная карта</h2>
+      <div class="roadmap-step"><b>Идея:</b> сформировано позиционирование и видение продукта.</div>
+      <div class="roadmap-step"><b>Прототип:</b> AI-модуль подбора ресторанов + демо-интерфейс.</div>
+      <div class="roadmap-step"><b>MVP:</b> web-платформа с выбором блюд/атмосферы и заказами.</div>
+      <div class="roadmap-step"><b>Запуск:</b> интеграции, партнёрства с кафе/ресторанами, мобильное приложение.</div>
+    </section>
+
+    <section>
+      <h2>5. Как мы будем реализовывать</h2>
+      <ul>
+        <li>LLM-агенты → подбор места по параметрам пользователя.</li>
+        <li>ML-рекомендации → персонализация на основе истории и предпочтений.</li>
+        <li>Parsing + NLP → анализ отзывов, шумности, атмосферы.</li>
+        <li>Интеграции → карты, меню, платежи, рейтинги.</li>
+        <li>UI/UX → максимально простая и вкусная навигация.</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer>Dastarkhan © 2025</footer>
+</body>
+</html>
